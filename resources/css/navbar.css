@@ -1,0 +1,40 @@
+div.navbar {
+    background-color: lightgray;
+    border-radius: 5vh;
+    height: 5vh;
+    width: 99.5%;
+    top: .5vh;
+    left: .5vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+div.navbar>p {
+    top: .5vh;
+    left: 1.5vh;
+    font-size: 2vh;
+    position: fixed;
+}
+
+div.navbar .menu{
+    height: max-content;
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.menu .item {
+    flex-grow: 1;
+    height: 100%;
+}
+
+.item {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
